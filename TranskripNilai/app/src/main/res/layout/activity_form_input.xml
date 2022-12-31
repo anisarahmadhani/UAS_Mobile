@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kdmatkul"/>
+
+            <EditText
+                android:id="@+id/editKdMatkul"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName|textCapCharacters"
+                android:minHeight="32dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/matkul"/>
+
+            <EditText
+                android:id="@+id/editMatkul"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName|textCapCharacters"
+                android:minHeight="32dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sks"/>
+            <EditText
+                android:id="@+id/editsks"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName|textCapCharacters"
+                android:minHeight="32dp"/>
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nilai"/>
+
+            <EditText
+                android:id="@+id/editNilai"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName|textCapCharacters"
+                android:minHeight="32dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonCancle"
+                android:text="Cancle"/>
+
+
+            <Button
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonSave"
+                android:text="Save"
+                android:layout_marginLeft="90dp"
+                />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

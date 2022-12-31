@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+
+    >
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewKdMatkul"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/textViewMatkul"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="24sp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/textViewSKS"/>
+
+    <TextView
+        android:layout_width="24sp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/textViewNilai"/>
+
+    <ImageView
+        android:id="@+id/imageViewDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        app:srcCompat="@drawable/ic_baseline_delete_24"
+        tools:ignore="ContentDescription"/>
+
+
+</LinearLayout>

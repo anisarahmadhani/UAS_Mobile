@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Transkrip Nilai</string>
+    <string name="ipk">IPK</string>
+    <string name="_3_90">-</string>
+    <string name="tambah">Tambah</string>
+    <string name="no_bp">No BP: 2001091005</string>
+    <string name="nama_mahasiswa">Nama: Anisa Rahmadhani</string>
+    <string name="simpan">simpan</string>
+    <string name="kdmatkul">Kode Mata Kuliah</string>
+    <string name="matkul">Mata Kuliah</string>
+    <string name="sks">SKS</string>
+    <string name="nilai">Nilai</string>
+    <string name="hapus">hapus</string>
+    <string name="edit">edit</string>
+    <string name="judul_konfirmasi">Apakah anda ingin  keluar</string>
+    <string name="konfirmasi_hapus">Apakah anda yakin ?</string>
+    <string name="ya">Ya</string>
+    <string name="batal">Batal</string>
+    <string name="error">Warning</string>
+    <string name="data_harus_diisi">data harus diisi!</string>
+    <string name="ok">OK</string>
+    <string name="kode_sudah_digunakan">Kode Sudah digunakan</string>
+    <string name="kode_sudah_ada">"Kode mata kuliah sudah ada di basisdata! \n Kode Mata Kuliah harus unik "</string>
+    <string name="confirmation">Konfirmasi</string>
+    <string name="tidak">Tidak</string>
+    <string name="kode">Kode</string>
+    <string name="namamatkul">Nama Matakuliah</string>
+    <string name="nil">Nil</string>
+    <string name="forminput">Formulir Input Mata Kuliah</string>
+    <string-array name="list_SKS">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+</resources>
